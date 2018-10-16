@@ -3,7 +3,7 @@ Regularization differentiating function
 ======
 
 This package implements the the method of "regularization differentiating function" (RDF).
-In particular, we apply RDF on the following three recommendation modules: SVD, SVD++, and NMF.
+In particular, we apply RDF on the following three recommendation models: SVD, SVD++, and NMF.
 
 ****************************
 Sample usage (with caution):
@@ -40,6 +40,8 @@ To generate the SVD model with RDF, run:
 ``rdfsvd-train.py -tr [train-file] -m [model-file]``
 
 This will run SVD with RDF and generate a model file of the name ``[train-file]-rdfsvd-model.pck`` under the same directory.
+
+The ``[train-file]`` contains the training samples, i.e., a list of (user-id, item-id, rating), one tuple per line.
 
 Similarly, you may use the command ``rdfsvdpp-train.py``, ``rdfnmf-train.py`` to generate the SVD++ model with RDF and NMF model with RDF.
 
