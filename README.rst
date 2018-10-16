@@ -41,9 +41,9 @@ To generate the SVD model with RDF, run:
 
 This will run SVD with RDF and generate a model file of the name ``[train-file]-rdfsvd-model.pck`` under the same directory.
 
-Similarly, you may use the command ``rdfsvdpp-train.py'', ``rdfnmf-train.py'' to generate the SVD++ model with RDF and NMF model with RDF.
+Similarly, you may use the command ``rdfsvdpp-train.py``, ``rdfnmf-train.py`` to generate the SVD++ model with RDF and NMF model with RDF.
 
-We also include the SVD model, SVD++ model, and NMF model without RDF.  You may execute these models by running ``svd-train.py'', ``svdpp-train.py'', and ``nmf-train.py''.
+We also include the SVD model, SVD++ model, and NMF model without RDF.  You may execute these models by running ``svd-train.py``, ``svdpp-train.py`, and ``nmf-train.py``.
 
 To test the model and report rmse score, run:
 ========================================
