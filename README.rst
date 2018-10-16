@@ -4,7 +4,6 @@ Regularization differentiating function
 
 This package implements the the method of "regularization differentiating function" (RDF).
 In particular, we apply RDF on the following three recommendation modules: SVD, SVD++, and NMF.
-Please cite the paper if you use this package.
 
 ****************************
 Sample usage (with caution):
