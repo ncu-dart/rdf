@@ -5,6 +5,25 @@ Regularization differentiating function
 This package implements the the method of "regularization differentiating function" (RDF).
 In particular, we apply RDF on the following three recommendation models: SVD, SVD++, and NMF.
 
+=====
+Citation
+=====
+
+If you find the library useful, please cite the following article.
+
+Chen, Hung-Hsuan, and Pu Chen. "Differentiating Regularization Weights--A Simple Mechanism to Alleviate Cold Start in Recommender Systems." ACM Transactions on Knowledge Discovery from Data (TKDD) 13.1 (2019).
+
+BibTeX:
+@article{chen2019differentiating,
+  title={Differentiating Regularization Weights--A Simple Mechanism to Alleviate Cold Start in Recommender Systems},
+  author={Chen, Hung-Hsuan and Chen, Pu},
+  journal={ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  volume={13},
+  number={1},
+  year={2019},
+  publisher={ACM}
+}
+
 ****************************
 Sample usage (with caution):
 ****************************
