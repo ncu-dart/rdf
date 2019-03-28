@@ -14,6 +14,7 @@ If you find the library useful, please cite the following article.
 Chen, Hung-Hsuan, and Pu Chen. "Differentiating Regularization Weights--A Simple Mechanism to Alleviate Cold Start in Recommender Systems." ACM Transactions on Knowledge Discovery from Data (TKDD) 13.1 (2019).
 
 BibTeX:
+
 ```
 @article{chen2019differentiating,
     title={Differentiating Regularization Weights--A Simple Mechanism to Alleviate Cold Start in Recommender Systems},
